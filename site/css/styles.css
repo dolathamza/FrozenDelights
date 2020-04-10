@@ -119,7 +119,7 @@ body {
 
 @media (min-width: 1200px) {
     .container .jumbotron {
-        background: url('../img/pic1.jpg') no-repeat;
+        background: url('../img/jumbotron_1200.jpg') no-repeat;
         height: 675px;
     }
 }
@@ -130,7 +130,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Header */
     #logo-img {
-        background: url('../img/cook_lunch.png') no-repeat;
+        background: url('../img/restaurant-logo_medium.png') no-repeat;
         width: 100px;
         height: 100px;
         margin: 5px 5px 5px 0;
@@ -138,7 +138,7 @@ body {
     /* End Header */
     /* Home Page */
     .container .jumbotron {
-        background: url('../img/cook_02.jpg') no-repeat;
+        background: url('../img/jumbotron_992.jpg') no-repeat;
         height: 558px;
     }
     /* End Home Page */
@@ -150,7 +150,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     /* Home Page */
     .container .jumbotron {
-        background: url('../img/lunch_item.jpg') no-repeat;
+        background: url('../img/jumbotron_768.jpg') no-repeat;
         height: 432px;
     }
     /* End Home Page */
