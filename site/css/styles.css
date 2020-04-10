@@ -2,7 +2,7 @@ body {
     font-size: 16px;
     color: #fff;
     background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
+    font-family: "Oxygen", sans-serif;
 }
 
 
@@ -15,7 +15,7 @@ body {
 }
 
 #logo-img {
-    background: url('../img/frozen.png') no-repeat;
+    background: url("../img/frozen.png") no-repeat;
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
@@ -27,7 +27,7 @@ body {
 
 .navbar-brand h1 {
     /* Restaurant name */
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     color: black;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -35,7 +35,7 @@ body {
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: .75;
+    line-height: 0.75;
 }
 
 .navbar-brand a:hover,
@@ -47,7 +47,7 @@ body {
     /* Kosher cert */
     color: #000;
     text-transform: uppercase;
-    font-size: .7em;
+    font-size: 0.7em;
     margin-top: 15px;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 #nav-list a:hover {
-    background: #E7E7E7;
+    background: #e7e7e7;
 }
 
 #nav-list a span {
@@ -107,8 +107,8 @@ body {
 /* HOME PAGE */
 
 .container .jumbotron {
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
 }
 
 
@@ -119,7 +119,7 @@ body {
 
 @media (min-width: 1200px) {
     .container .jumbotron {
-        background: url('../img/jumbotron_1200.jpg') no-repeat;
+        background: url("../img/jumbotron_1200.jpg") no-repeat;
         height: 675px;
     }
 }
@@ -130,7 +130,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
     /* Header */
     #logo-img {
-        background: url('../img/restaurant-logo_medium.png') no-repeat;
+        background: url("../img/restaurant-logo_medium.png") no-repeat;
         width: 100px;
         height: 100px;
         margin: 5px 5px 5px 0;
@@ -138,7 +138,7 @@ body {
     /* End Header */
     /* Home Page */
     .container .jumbotron {
-        background: url('../img/jumbotron_992.jpg') no-repeat;
+        background: url("../img/jumbotron_992.jpg") no-repeat;
         height: 558px;
     }
     /* End Home Page */
@@ -150,7 +150,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     /* Home Page */
     .container .jumbotron {
-        background: url('../img/jumbotron_768.jpg') no-repeat;
+        background: url("../img/jumbotron_768.jpg") no-repeat;
         height: 432px;
     }
     /* End Home Page */
@@ -173,7 +173,7 @@ body {
     }
     .navbar-brand p {
         /* Kosher cert */
-        font-size: .6em;
+        font-size: 0.6em;
         margin-top: 12px;
     }
     .navbar-brand p img {
@@ -200,8 +200,8 @@ body {
     }
     #xs-deliver {
         margin-top: 5px;
-        font-size: .7em;
-        letter-spacing: .1em;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
     }
     /* End Header */
@@ -238,7 +238,7 @@ body {
     width: 100%;
     margin-bottom: 15px;
     position: relative;
-    border: 2px solid #3F0C1F;
+    border: 2px solid #3f0c1f;
     overflow: hidden;
 }
 
@@ -249,12 +249,12 @@ body {
 }
 
 #menu-tile {
-    background: url('../images/menu-tile.jpg') no-repeat;
+    background: url("../img/menu-tile.jpg") no-repeat;
     background-position: center;
 }
 
 #specials-tile {
-    background: url('../images/specials-tile.jpg') no-repeat;
+    background: url("../img/specials-tile.jpg") no-repeat;
     background-position: center;
 }
 
@@ -270,5 +270,5 @@ body {
     text-transform: uppercase;
     background-color: #000;
     color: #fff;
-    opacity: .8;
+    opacity: 0.7;
 }
