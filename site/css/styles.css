@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 16px;
     color: #fff;
@@ -9,27 +15,29 @@ body {
 /** HEADER **/
 
 #header-nav {
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 0;
     border: 0;
-    height: auto;
+    height: 170px;
 }
 
 #logo-img {
-    background: url('../site/img/frozen.png') no-repeat;
+    background: url('../img/frozen.png') no-repeat;
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
+    float: left;
 }
 
-#navbar-brand {
+.navbar-brand {
     padding-top: 25px;
 }
 
 .navbar-brand h1 {
-    /*NAME */
+    /* Restaurant name */
+    font-family: 'Lora', serif;
     color: black;
-    font-family: 'Indie Flower', cursive;
+    text-decoration: none;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
@@ -45,11 +53,11 @@ body {
 }
 
 .navbar-brand p {
-    /*cetified */
     color: #000;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .navbar-brand p span {
