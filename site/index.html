@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -72,60 +81,33 @@
     <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
     <div id="main-content" class="container">
-        <div class="jumbotron">
-            <img src="../site/img/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
-        </div>
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menu-categories.html">
-                    <div id="menu-tile"><span>menu</span></div>
-                </a>
+
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <section id="hours" class="col-sm-4">
+                        <span>Hours:</span><br> 9 A.M to 12 A.M (All Week)
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="address" class="col-sm-4">
+                        <span>Address:</span><br> Rawalpindi, Pakistan
+                        <p>* Delivery area within 3-4 Kilometers, with minimum order of 1500 PKR plus 100 PKR charge for all deliveries.</p>
+                        <hr class="visible-xs">
+                    </section>
+                    <section id="testimonials" class="col-sm-4">
+                        <p>"The best place to get homemade food. All of the items are hyegenic and made out of pure and halal materials!"</p>
+                        <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+                    </section>
+                </div>
+                <div class="text-center">&copy; Copyright Frozen Delights 2020</div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="single-category.html">
-                    <div id="specials-tile"><span>specials</span></div>
-                </a>
-            </div>
-            <br>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <a href="https://goo.gl/maps/zMomeau55wK6yVK57" target="_blank">
-                    <div id="map-tile">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13289.028313258743!2d73.03389989020546!3d33.62457570851788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df94e4a3856297%3A0xdd09f644d2007a6!2zMzPCsDM3JzQ2LjQiTiA3M8KwMDMnMTIuNSJF!5e0!3m2!1sen!2s!4v1586532241202!5m2!1sen!2s"
-                            width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        <span>map</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <!--End of home tiles-->
-    </div>
-    <footer class="panel-footer">
-        <div class="container">
-            <div class="row">
-                <section id="hours" class="col-sm-4">
-                    <span>Hours:</span><br> 9 A.M to 12 A.M (All Week)
-                    <hr class="visible-xs">
-                </section>
-                <section id="address" class="col-sm-4">
-                    <span>Address:</span><br> Rawalpindi, Pakistan
-                    <p>* Delivery area within 3-4 Kilometers, with minimum order of 1500 PKR plus 100 PKR charge for all deliveries.</p>
-                    <hr class="visible-xs">
-                </section>
-                <section id="testimonials" class="col-sm-4">
-                    <p>"The best place to get homemade food. All of the items are hyegenic and made out of pure and halal materials!"</p>
-                    <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
-                </section>
-            </div>
-            <div class="text-center">&copy; Copyright Frozen Delights 2020</div>
-        </div>
-    </footer>
+        </footer>
 
 
-
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajax-utils.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
